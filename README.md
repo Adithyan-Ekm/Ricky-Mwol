@@ -18,6 +18,14 @@
  Click [FORK](https://github.com/Adithyan-Ekm/RickyMwol/fork)
 
 5. Now https://heroku.com/deploy?template=https://github.com/Adithyan-Ekm/RickyMwol copy this url and change Adithyan-Ekm with your github username and click go<br>
+
+### Simple Method
+
+  
+
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Adithyan-Kochi/RickyMwol)
 ## 1. join what's app [bot] group 
 <br>
 <a href="https://chat.whatsapp.com/LhVZI1PeWCEF6cMx7CQCfW"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Group-red?style=for-the-badge&logo=whatsapp&logoColor=white"/></a> 
