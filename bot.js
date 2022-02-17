@@ -1,4 +1,4 @@
-/* Copyright (C) 2020 Yusuf Usta.
+ /* Copyright (C) 2020 Yusuf Usta.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta 
@@ -139,7 +139,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅️Liza Mwol working ' + config.WORKTYPE + ' 𝚗𝚘𝚠 '));
+            chalk.green.bold('✅️RickyMwol working ' + config.WORKTYPE + ' 𝚗𝚘𝚠 '));
           // thanks to afnanplk
 	    if (config.LANG == 'EN' || config.LANG == 'ML') {
                 await git.fetch();
@@ -338,7 +338,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.NOLOG == 'off') {
                                 
-                                await conn.sendMessage(conn.user.jid, '*~_________~ 𝐋𝐈𝐙𝐀 𝐌𝐖𝐎𝐋࿐ ~______~*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ RICKY 𝐌𝐖𝐎𝐋࿐ ~______~*' +
                                     '\n\n*👾 ' + error + '*\n\n```Report errors\njoin ⚠️Warning bot not allowed in the group\nchat.whatsapp.com/HrPTDEi6NPsJpgvMZHNBg7``` ' 
                                     , MessageType.text);
                             }
@@ -365,3 +365,61 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
 }
 
 whatsAsena();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
