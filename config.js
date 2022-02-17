@@ -1,5 +1,6 @@
-/* Copyright (C) 2020 Yusuf Usta.
 
+
+/* Copyright (C) 2020 Yusuf Usta.
 WhatsAsena - Yusuf Usta
 */
 
@@ -18,7 +19,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v8.0.0',
     CHANNEL: 'https://t.me/remasterplugin',
-    SESSION: process.env.LIZA_SESSION === undefined ? '' : process.env.LIZA_SESSION,
+    SESSION: process.env.Ricky_SESSION === undefined ? '' : process.env.Ricky_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
@@ -30,7 +31,7 @@ module.exports = {
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     WELCOME: process.env.WELCOME === undefined ? 'pp' : process.env.WELCOME,
     OWNER: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
-    ALL: process.env.ALL_CAPTION === undefined ? 'Made By LIZA MWOL' : process.env.ALL_CAPTION,
+    ALL: process.env.ALL_CAPTION === undefined ? 'Made By Ricky MWOL' : process.env.ALL_CAPTION,
     MENTION: process.env.TAG_REPLY === undefined ? '918921483992@s.whatsapp.net' : process.env.TAG_REPLY,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     PLKS: process.env.THERI_LIST === undefined ? false : process.env.THERI_LIST,
@@ -39,7 +40,7 @@ module.exports = {
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
     STICKERP: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
     DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
-    BOTLIZA: process.env.BOT_NAME === undefined ? '  𝐋𝐈𝐙𝐀 𝐌𝐖𝐎𝐋࿐  \n\n   *ωнαтsαρρ вσт™*   \n' : process.env.BOT_NAME,
+    BOTRicky: process.env.BOT_NAME === undefined ? '  RICKY 𝐌𝐖𝐎𝐋࿐  \n\n   *ωнαтsαρρ вσт™*   \n' : process.env.BOT_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
     THERI_KICK: process.env.THERI_KICK === undefined ? 'false' : process.env.THERI_KICK,
     SONGD: process.env.SONGD === undefined ? '✮⃝🕊️𝕯𝖔𝖜𝖓𝖑𝖔𝖆𝖉𝖎𝖓𝖌 𝖄𝖔𝖚𝖗 𝕾𝖔𝖓𝖌✮⃝🕊️' : process.env.SONGD,
@@ -60,15 +61,15 @@ module.exports = {
     TAGPLK: process.env.TAG_HEADER === undefined ? 'Note this' : process.env.TAG_HEADER,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     YAK: process.env.YAK === undefined ? '918921483992,0' : process.env.YAK,
-    OWNERSHIP: process.env.OWNER_SHIP === undefined ? 'LIZA-MWOL' : process.env.OWNER_SHIP,
-    LIZA: process.env.LOGO_LINK === undefined ? 'https://i.imgur.com/2nYs8dN.jpg' : process.env.LOGO_LINK,
+    OWNERSHIP: process.env.OWNER_SHIP === undefined ? 'Ricky-MWOL' : process.env.OWNER_SHIP,
+    Ricky: process.env.LOGO_LINK === undefined ? 'https://i.imgur.com/2nYs8dN.jpg' : process.env.LOGO_LINK,
     MWOL: process.env.BGM_DURATION === undefined ? '7280542' : process.env.BGM_DURATION,
-    BOTV2: process.env.BOTV2_NAME === undefined ? 'ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝ʟɪᴢᴀ ᴍᴏʟ࿐' : process.env.BOTV2_NAME,
-    LIZA_AI: process.env.LIZA_AI === undefined ? 'false' : process.env.LIZA_AI,
+    BOTV2: process.env.BOTV2_NAME === undefined ? 'ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝Ricky ᴍᴏʟ࿐' : process.env.BOTV2_NAME,
+    Ricky_AI: process.env.Ricky_AI === undefined ? 'false' : process.env.Ricky_AI,
     ALIVEBUTTON: process.env.ALIVEBUTTON === undefined ? 'ʜᴇʟʟᴏ ʙʀᴏ' : process.env.ALIVEBUTTON,
     ALIVE_BUTTON: process.env.ALIVE_BUTTON === undefined ? 'ʜɪ ᴅᴜᴅᴇ' : process.env.ALIVE_BUTTON,
     LG_LOGO: process.env.LG_LOGO === undefined ? 'https://telegra.ph/file/0e0409148fa47cdb92582.jpg' : process.env.LG_LOGO,
-    LOGO_NAME: process.env.LOGO_NAME === undefined ? 'ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝ʟɪᴢᴀ ᴍᴏʟ࿐' : process.env.LOGO_NAME,
+    LOGO_NAME: process.env.LOGO_NAME === undefined ? 'ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝Ricky ᴍᴏʟ࿐' : process.env.LOGO_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'true' : process.env.NO_LOG,
     NU: process.env.NUMBER === undefined ? false : process.env.NUMBER,
     BRANCH: 'master',
@@ -88,3 +89,17 @@ module.exports = {
     SUPPORT2: "905511384572-1617736751",
     SUPPORT3: "905511384572-1621015274"
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
